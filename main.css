@@ -11,11 +11,10 @@ header{
 	height: 100px;
 	width: 100%;
 	margin-bottom: 120px;
-	padding-left: 200px;
 }
 .presentacion img
 {
-	margin-left: 100px;
+	margin-left: 10px;
 	box-shadow: 0px 8px 16px 0px rgba(0,1,1,1.0);
 	border-radius: 20px;
 }
@@ -23,17 +22,18 @@ H1{
 	font-family: 'Poppins', sans-serif;
 	color: #fefdfd;
 	padding-top: 20px;
-	padding-left: 400px;
 	font-size: 90px;
+	text-align: center;
 }
 H2 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 200;
 	font-style: italic;
 	color: #fefdfd;
-	padding-left: 500px;
 	font-variant-caps: all-petite-caps;
 	letter-spacing: 10px;
+	text-align: center;
+	margin-bottom: 60px;
 }
 body{
 	background-color: #262648;
@@ -44,14 +44,16 @@ body{
 	height: 80px;
 	padding-top: 25px;
 	margin-bottom: 30px;;
-	padding-left: 750px;; 
 }
 nav ul {
 	list-style: none;
+	text-align: right;
+	
 }
 nav ul li {
 	display: inline;
 	margin-left: 50px;
+	
 }
 .botonera li:hover {
 	background-color: #b8c1ec;
@@ -63,10 +65,13 @@ nav ul li {
 	text-decoration: none;
 	font-size: 25px;
 	color: #262648;
+	padding-right: 10px;
+	
 }
 .muestra{
-	margin-left: 100px;
+	margin-left: 10px;
 	display: flex;
+	margin-bottom: 150px;
 }
 .card{
 	width: 100%;
@@ -98,3 +103,38 @@ nav ul li {
 	font-weight: normal;
 	
 }
+footer{
+	display: inline-block;
+	background-color: #b8c1ec;
+	height: 60px;
+	width: 1280px;
+	padding-left: 10px;
+}
+h6{
+	color: #262648;
+	font-size: 15px;
+}
+footer ul {
+	list-style: none;
+	text-align: right;
+	
+}
+footer ul li {
+	display: inline;
+	margin-left: 50px;
+	
+	
+}
+footer li:hover {
+	background-color: #dec6d9;
+	color:#b8c1ec; 
+	height: 80px;
+}
+footer a{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-decoration: none;
+	font-size: 15px;
+	color: #262648;
+	padding-right: 10px;
+	padding-top: -100px;
+	}
