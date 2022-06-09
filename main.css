@@ -34,10 +34,26 @@ H2 {
 	letter-spacing: 10px;
 	text-align: center;
 	margin-bottom: 60px;
+
+}
+h4{
+	font-family:  'Poppins', sans-serif;
+	color: #FFFFFE;
+	font-variant-caps: all-petite-caps;
+	font-size: 70px;
+	
+}
+p{
+	font-size: 20px;
+	color: #B8C1EC;
+	font-family:  'Poppins', sans-serif;
 }
 body{
 	background-color: #262648;
 	width: 1280px;
+}
+.sobre-mi img{
+	width: 23%;
 }
 .botonera{
 	width: 100%;
