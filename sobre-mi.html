@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <meta name="Description" content="Portafolio HTML y CSS Unla 2022">
 <meta name="author" content="Karen Mendoza">
 <meta name="Keywords" content="Portafolio, Diseño, Computación">
@@ -16,21 +16,47 @@
 <header>
 	<nav class="botonera">
 		<ul>
+			<li> <a href="index.html"> Inicio</a></li>
 			<li><a href="sobre-mi.html" >Sobre mi</a></li>
-			<li><a href="ingresarhtml">Trabajos</a></li>
-			<li><a href="otro lado">Contacto</a></li>
+			<li><a href="trabajos.html">Trabajos</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+			
 		</ul>
 	</nav>
 	</header>
 	<main>
-		<div class="sobre-mi"> <h4>Sobre mí</h4>
+		<h4>Sobre mí</h4>
+		<div class="sobre-mi"> 
 		<p>Hola! Me llamo Karen Mendoza y soy estudiante de Diseño y Comunicación Visual en la Universidad Nacional de Lanús. Me gusta ilustrar y el diseño editorial. Me alegro que estes acá, ¡espero que puedas conocerme mejor! 
 		</p>
-		<img src="img/perfil.png" width="372" height="300px" alt="perfil"/>
+		<img src="img/perfil.png" width="372" height="350px" alt="perfil"/>
 		</div>
 		<div class="contactame">
 		<h4> Contactame</h4>
-		
+		<div class="container">
+			
+	<form action="action_page.php">
+
+		<label for="fname">Nombre</label>
+		<input type="text" id="primer-nombre" name="firstname" placeholder="Tu nombre..">
+
+		<label for="lname">Apellido</label>
+		<input type="text" id="segundo-nombre" name="lastname" placeholder="Tu apellido..">
+
+		<label for="pais">País</label>
+		<select id="pais" name="country">
+		<option value="argentina">Argentina</option>
+		<option value="chile">Chile</option>
+		<option value="uruguay">Uruguay</option>
+		</select>
+
+		<label for="mensaje">Mensaje</label>
+		<textarea id="mensaje" name="subject" placeholder="Escribí tu mensaje.." style="height:200px"></textarea>
+
+		<input type="submit" value="Submit">
+
+  </form>
+</div>
 		</div>
 	</main>
 	<footer>
