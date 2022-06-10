@@ -111,6 +111,15 @@ nav ul li {
 .contenido{
 	margin-left: 10px;
 }
+.contenido a{
+	text-decoration: none;
+	color: white;
+
+}
+.contenido a:hover{
+	color: aqua;
+	background-color: beige;
+}
  h3{
 	font-family: 'Poppins', sans-serif;
 	margin-bottom: 14px;
